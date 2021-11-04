@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Week 5 LAB.2</title>
+	<!-- my CSS  -->
+	<link href="myStyles.css" rel="stylesheet" >
+
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+
+		document.write("<h1>Welcome to Page 2</h1>"); //using HTML tags
+    var cash;
+    var itemprice;
+    var change;
+    cash = parseInt(prompt("Enter how much cash you have"));
+    itemprice = parseInt(prompt("How much is the item you are buying"));
+    change = parseInt(change);
+
+    if(itemprice < cash){
+      change = cash - itemprice;
+      document.write("You have bough your item and your change is " + change);
+    }else{
+      document.write("You dont have enough money");
+    }
+
+	</script>
+  </head>
+  <body>
+    <p>This was my basic version of a shop</p>
+	  <p>This is the end of my labwork</p>
+	<a href="js-index.html">Back</a>
+
+  </body>
+</html>
